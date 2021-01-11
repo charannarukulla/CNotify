@@ -7,7 +7,7 @@ public class CNotify {
   public   Notify n;
     Context context;
 
-CNotify(Context context, String ServerKey){
+public CNotify(Context context, String ServerKey){
 
     n =new Notify((Activity) context,ServerKey);
     this.context=context;

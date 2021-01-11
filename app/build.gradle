@@ -1,25 +1,7 @@
-
-
-apply plugin: 'com.novoda.bintray-release'
-apply plugin: 'com.android.library'
+apply plugin: 'com.android.application'
 
 
 
-
-publish {
-
-    def groupProjectID = 'com.charannarukulla.CNotify'
-    def artifactProjectID = 'CNotify'
-    def publishVersionID = '0.1.0'
-
-    userOrg = 'charannarukulla'
-    repoName = 'CNotify'
-    groupId = groupProjectID
-    artifactId = artifactProjectID
-    publishVersion = publishVersionID
-    desc = 'This library simplifies sending notifications programmatically from your app using FCM.'
-    website = 'https://github.com/charannarukulla/CNotify'
-}
 
 android {
     compileSdkVersion 30
